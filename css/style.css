@@ -1,0 +1,290 @@
+/*-----UNIVERSAL STYLING------*/
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-style: normal;
+  background-color: #FFFBFB;
+  }
+
+  /*------- TYPOGRAPHY ------*/
+
+  section {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 4em;
+  }
+
+  header {
+    width: 80%;
+    max-width: 1150px;
+    margin: auto;
+  }
+
+  header {
+    color: #FFFBFB;
+
+  }
+
+  .center {
+    display: block;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  header h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 3.8em;
+    font-weight: 700;
+    line-height: 1;
+    padding-left: .8em;
+    padding-bottom: 0;
+  }
+
+  header h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 0;
+    padding-left: 1.4em;
+    color: #FFFBFB;
+  }
+
+
+  section h2, h3 {
+    color: #0602D1;
+    text-align: left;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
+  P {
+    line-height: 1.4;
+    color: #010049;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p, blockquote {
+    margin-bottom: 2em;
+    line-height: 1.4;
+    pa
+  }
+
+  blockquote {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0602D1;
+    hanging-punctuation: first;
+    text-indent: -0.35em;
+    text-align: left;
+  }
+
+  blockquote cite {
+    font-size: .8em;
+    color: #010049;
+    font-weight: 400;
+  }
+
+  cite {
+    font-size: 1em;
+    color: #010049;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: .3em;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin-top: 1.8em;
+    margin-bottom: .5em;
+  }
+
+  h3 {
+    font-style: normal;
+    font-size: 1.6em;
+    margin: 1em 0 1em 0;
+  }
+
+/*---CLASSING---*/
+   .bibliography h2, ul{
+     color: #FFFBFB;
+   }
+
+   .bibliography h2{
+     text-align: center;
+   }
+
+
+
+  /*-----BACKGROUNDS-----*/
+
+  .background-colour {
+      padding: 4em 0;
+      background: rgb(255,173,52);
+      background: linear-gradient(56deg, rgba(255,173,52,1) 0%, rgba(255,42,42,1) 64%);
+  }
+
+  .bibliography {
+    padding-top: .05em;
+    padding-bottom: 6em;
+    background: rgb(255,173,52);
+    background: linear-gradient(56deg, rgba(255,173,52,1) 0%, rgba(255,42,42,1) 64%);
+  }
+
+  /*----STYLING LINKS ---*/
+  a{
+    color: #0602D1;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+
+  }
+  a:visited {
+    color: #0602D1;
+  }
+
+  a:hover {
+    color: #0501AE;
+    border-bottom: 1px dotted;
+  }
+
+  /*----NAVIGATION----*/
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #FFEC41;
+    padding: 1em 0;
+    font-size: 1.2em;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+
+  }
+  nav ul {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+  }
+
+  nav a {
+    color:#0602D1;
+  }
+
+  nav a:hover {
+    color: #0501AE;
+  }
+
+/*---images----*/
+  .map {
+    display: block;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .public {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .she {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 700px;
+  }
+
+  .noise {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 700px;
+  }
+
+  .boston {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 700px;
+  }
+
+  .citi {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 700px;
+  }
+
+  .lucent {
+    display: block;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 700px;
+  }
+
+
+
+  /*--------FOOTER------*/
+
+  footer {
+    text-align: center;
+    font-size: 0.707;
+    padding: 2em 0 4em 0;
+    margin: auto;
+    color: #FFF6A7;
+    background: #FFEC41;
+  }
+
+  .connections {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .connections ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .connections li {
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  .connections a:link {
+    border-bottom: none;
+  }
+
+  .connections img,
+  .connections svg {
+    border: none
+  }
+
+  .connections a:hover svg path {
+    fill: #E02B2B;
+    transition: all 0.3s ease-in-out
+  }
