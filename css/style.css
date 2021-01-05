@@ -66,28 +66,24 @@ body{
   }
 
   p, blockquote {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     line-height: 1.4;
     pa
   }
 
   blockquote {
-    font-size: 1.1em;
     font-weight: 600;
     color: #0602D1;
+    align: left;
+    font-size: 1.5em;
     hanging-punctuation: first;
-    text-indent: -0.35em;
-    text-align: left;
+    text-indent: -0.44em;
+    font-style: italic;
   }
 
-  blockquote cite {
-    font-size: .8em;
-    color: #010049;
-    font-weight: 400;
-  }
 
   cite {
-    font-size: 1em;
+    font-size: .8em;
     color: #010049;
     font-weight: 400;
     font-style: normal;
@@ -245,6 +241,23 @@ body{
     max-width: 700px;
   }
 
+  /*---IMAGE CAPTIONS---*/
+
+  .caption{
+      margin-top: -1em;
+      margin-bottom: 3em;
+      font-size: .9em;
+      text-align: center;
+      color: #010049;
+    }
+
+      .captionm{
+          margin-top: 0em;
+          margin-bottom: 3em;
+          font-size: .9em;
+          text-align: center;
+          color: #010049;
+        }
 
 
   /*--------FOOTER------*/
