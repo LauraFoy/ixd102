@@ -82,8 +82,8 @@ body{
   }
 
 
-  cite {
-    font-size: .8em;
+  blockquote cite {
+    font-size: .7em;
     color: #010049;
     font-weight: 400;
     font-style: normal;
